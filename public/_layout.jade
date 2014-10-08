@@ -1,0 +1,30 @@
+html
+	head
+		link(href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/cyborg/bootstrap.min.css", rel="stylesheet")	
+		link(href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css", rel="stylesheet")	
+		title Ken Hoff
+		base()
+
+		script(type = "text/javascript").
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create','UA-53737994-2','auto');
+			ga('send','pageview');
+
+	body
+		.container
+			.jumbotron
+				a(href = "/"): h1 Ken Hoff
+				a(target = "_blank", href = "mailto:thekenhoff@gmail.com"): i.fa.fa-envelope-square.fa-5x
+				a(target = "_blank", href = "https://www.facebook.com/ken.hoff"): i.fa.fa-facebook-square.fa-5x
+				a(target = "_blank", href = "https://twitter.com/ken_hoff"): i.fa.fa-twitter-square.fa-5x
+				a(target = "_blank", href = "https://www.linkedin.com/in/thekenhoff"): i.fa.fa-linkedin-square.fa-5x
+				a(target = "_blank", href = "https://github.com/kenhoff"): i.fa.fa-github-square.fa-5x
+				//i.fa.fa-gamepad.fa-5x.fa-border
+			ul.nav.nav-pills
+				li(class = "#{ current.path[0] == 'projects' ? 'active' : '' }"): a(href = "/projects") Projects
+				li(class = "#{ current.path[0] == 'games' ? 'active' : '' }"): a(href = "/games") Games
+			!= yield
