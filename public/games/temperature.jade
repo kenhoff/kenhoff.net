@@ -1,11 +1,13 @@
 h1 Temperature
 p.lead Experimental Gameplay Project - December 2012
 
-img(src = "/img/egp_screen.PNG").img-responsive.img-rounded
+p: img(src = "/img/egp_screen.PNG").img-responsive.img-rounded
 
-p.text-center
-	a(href = "/games/temperature-player"): i.fa.fa-gamepad.fa-4x(data-toggle = "tooltip", data-placement = "top", data-original-title = "Web Player")
-	a(href = "https://github.com/kenhoff/egp1"): i.fa.fa-github.fa-4x(data-toggle = "tooltip", data-placement = "top", data-original-title = "Source Code")
+p.btn-group.btn-group-justified
+	a(href = "/games/temperature-player").btn.btn-default.disabled
+		i.fa.fa-gamepad.fa-3x
+	a(href = "https://github.com/kenhoff/egp1").btn.btn-default
+		i.fa.fa-github.fa-3x
 
 :markdown
 	In December of 2012, I decided to participate in the [Experimental Gameplay Project](http://experimentalgameplay.com/). It's a game development jam where, given a theme, it's our objective to create a game around that theme in less than a week. You must work alone, and you can't spend more than 1 week on the project. The November/December theme was **temperature**. I decided to try to make a 2D side-scrolling puzzle-platformer based around changing water particles into steam, ice, and back into water again. It was written entirely in [Unity 3D](http://unity3d.com/) with Javascript.
