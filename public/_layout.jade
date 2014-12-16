@@ -1,8 +1,8 @@
 html
 	head
-		link(href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/darkly/bootstrap.min.css", rel="stylesheet")
+		link(href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.0/cyborg/bootstrap.min.css", rel="stylesheet")
 		link(href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css", rel="stylesheet")	
-		link(href = "/css/links.css", rel = "stylesheet")
+		//link(href = "/css/links.css", rel = "stylesheet")
 		title Ken Hoff
 		script(src = "//code.jquery.com/jquery-1.11.0.min.js")
 		script(src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js")
@@ -23,13 +23,13 @@ html
 	body
 		.container
 			.jumbotron
-				a(href = "/"): h1 Ken Hoff
+				a(href = "/", target = "_self"): h1 Ken Hoff
 				a(href = "mailto:thekenhoff@gmail.com"): i.fa.fa-envelope-square.fa-5x
 				a(href = "https://www.facebook.com/ken.hoff"): i.fa.fa-facebook-square.fa-5x
 				a(href = "https://twitter.com/ken_hoff"): i.fa.fa-twitter-square.fa-5x
 				a(href = "https://www.linkedin.com/in/thekenhoff"): i.fa.fa-linkedin-square.fa-5x
 				a(href = "https://github.com/kenhoff"): i.fa.fa-github-square.fa-5x
 			ul.nav.nav-pills
-				li(class = "#{ current.path[0] == 'projects' ? 'active' : '' }"): a(href = "/projects", target = "_self") Projects
+				li(class = "#{ current.path[0] == 'startups' ? 'active' : '' }"): a(href = "/startups", target = "_self") Startups
 				li(class = "#{ current.path[0] == 'games' ? 'active' : '' }"): a(href = "/games", target = "_self") Games
 			!= yield
