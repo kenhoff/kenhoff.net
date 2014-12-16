@@ -25,7 +25,7 @@ p.btn-group.btn-group-justified
 
 	However, the aesthetic doesn't work super well with the implementation. Because I was tied to the theme, I needed to have game instances in different windows, which pretty significantly limited what I could do with layout, art, and sound.
 
-	Clicking "Begin anew" selects a random Lovecraftian username, and opens the first world. Each Phaser world instance is connected to Firebase, which keeps track of the last world that the user entered, and updates it's own game state accordingly. Links and window behavior are all controlled by some hacked together jQuery and low-level Javascript.
+	Clicking "Begin anew" selects a random Lovecraftian username, and opens the first world. Each Phaser world instance is connected to Firebase, which keeps track of the last world that the user entered, and updates its own game state accordingly. Links and window behavior are all controlled by some hacked together jQuery and low-level Javascript.
 
 	Originally, there were 32 worlds, each one named after an ancient Greek Titan. However, I started noticing WebGL crashing issues if there were more than 17 worlds open, so I cut about half of the playable levels. Also, the Firebase instance I'm using has a max limit of 50 concurrent connections, so if more than 3 people open up all the worlds at once, who knows what will happen! 
 
