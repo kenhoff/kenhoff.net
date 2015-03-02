@@ -1,16 +1,58 @@
 {
-	"bananacat": {},
-	"titan": {},
-	"asteroids2": {},
-	"damnsharks": {},
-	"thefacility": {},
-	"corpseexplosion": {},
-	"thesis": {},
-	"snape": {},
-	"heartofthemountain": {},
-	"temperature": {},
-	"csci4830": {},
-	"gish": {},
-	"jetpackjoe": {},
-	"asteroids": {}
+	"bananacat": {
+		"title": "Banana Cat's Maniac Mystery Mansion",
+		"image": "/img/bananacat_screen.png"
+	},
+	"titan": {
+		"title": "Titan",
+		"image": "/img/titan-screen.png"
+	},
+	"asteroids2": {
+		"title": "Asteroids 2.0",
+		"image": "/img/asteroids2_screen.png"
+	},
+	"damnsharks": {
+		"title": "Damn Sharks",
+		"image": "/img/damnsharks.png"
+	},
+	"thefacility": {
+		"title": "The Facility",
+		"image": "/img/thefacility.png"
+	},
+	"corpseexplosion": {
+		"title": "Corpse Explosion",
+		"image": "/img/corpseexplosion.png"
+	},
+	"thesis": {
+		"title": "Thesis",
+		"image": "/img/lightbot_screen.jpg"
+	},
+	"snape": {
+		"title": "Snape",
+		"image": "/img/snape_screen.PNG"
+	},
+	"heartofthemountain": {
+		"title": "Heart of the Mountain",
+		"image": "/img/ggj_screen.jpeg"
+	},
+	"temperature": {
+		"title": "Temperature",
+		"image": "/img/egp_screen.PNG"
+	},
+	"csci4830": {
+		"title": "CSCI 4830",
+		"image": "/img/monster_truck_screen.PNG"
+	},
+	"gish": {
+		"title": "Gish",
+		"image": "/img/gish_screen.PNG"
+	},
+	"jetpackjoe": {
+		"title": "Jetpack Joe",
+		"image": "/img/ld23.png"
+	},
+	"asteroids": {
+		"title": "Asteroids",
+		"image": "/img/asteroids_screen.png"
+	}
 }
