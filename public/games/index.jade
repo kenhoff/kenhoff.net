@@ -1,5 +1,5 @@
 br
 #flexbox
 	for game, slug in public.games._data
-		a.flexbox-child(href = "/games/#{slug}",style = "background: url(#{game.image}); background-size: cover; background-position: center; background-repeat: no-repeat")
+		a.flexbox-child(href = "/games/#{slug}", target = "_self", style = "background: url(#{game.image}); background-size: cover; background-position: center; background-repeat: no-repeat")
 			.flexbox-child-text= game.title
