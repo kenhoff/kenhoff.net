@@ -1,0 +1,11 @@
+.page-header(style = "display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap")
+	a(href = "/", target = "_self"): h1 Ken Hoff
+	.icons
+		a(href = "mailto:thekenhoff@gmail.com"): i.fa.fa-envelope-square.fa-5x
+		a(href = "https://www.facebook.com/ken.hoff"): i.fa.fa-facebook-square.fa-5x
+		a(href = "https://twitter.com/ken_hoff"): i.fa.fa-twitter-square.fa-5x
+		a(href = "https://www.linkedin.com/in/thekenhoff"): i.fa.fa-linkedin-square.fa-5x
+		a(href = "https://github.com/kenhoff"): i.fa.fa-github-square.fa-5x
+ul.nav.nav-pills
+	li(class = "#{ current.path[0] == 'startups' ? 'active' : '' }"): a(href = "/startups", target = "_self") Startups
+	li(class = "#{ current.path[0] == 'games' ? 'active' : '' }"): a(href = "/games", target = "_self") Games
