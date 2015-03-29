@@ -1,5 +1,8 @@
-for startup, slug in public.startups._data
-	!= partial(slug)
-	br
-	br
-	br
+extends ../_main_layout
+
+block content
+	for startup, slug in public.startups._data
+		!= partial(slug)
+		br
+		br
+		br
