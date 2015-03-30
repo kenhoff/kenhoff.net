@@ -2,7 +2,4 @@ extends ../_main_layout
 
 block content
 	for startup, slug in public.startups._data
-		!= partial(slug)
-		br
-		br
-		br
+		p: a(href = "/startups/#{slug}", target = "_self")= startup.title
