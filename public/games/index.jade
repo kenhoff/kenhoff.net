@@ -1,8 +1,11 @@
 extends ../_main_layout
 
+block head-scripts
+	script(src = "/games/hover.js")
+
 block content
-	br
 	#flexbox
 		for game, slug in public.games._data
 			a.flexbox-child(href = "/games/#{slug}", target = "_self", style = "background: url(#{game.image}); background-size: cover; background-position: center; background-repeat: no-repeat")
-				.flexbox-child-text= game.title
+				.flexbox-child-hoverbox
+					span.flexbox-child-hoverbox-text= game.title
