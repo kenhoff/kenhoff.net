@@ -1,58 +1,77 @@
 {
 	"bananacat": {
-		"title": "Banana Cat's Maniac Mystery Mansion",
-		"image": "/img/bananacat_screen.png"
+		"title"	: "Banana Cat's Maniac Mystery Mansion",
+		"image"	: "/img/bananacat_screen.png",
+		"date"	: "2015-01-25"
 	},
 	"titan": {
-		"title": "Titan",
-		"image": "/img/titan-screen.png"
+		"title"	: "Titan",
+		"image"	: "/img/titan-screen.png",
+		"date"	: "2014-12-08"
 	},
 	"asteroids2": {
-		"title": "Asteroids 2.0",
-		"image": "/img/asteroids2_screen.png"
+		"title"	: "Asteroids 2.0",
+		"image"	: "/img/asteroids2_screen.png",
+		"date"	: "2014-12-01"
 	},
 	"damnsharks": {
-		"title": "Damn Sharks",
-		"image": "/img/damnsharks.png"
+		"title"	: "Damn Sharks",
+		"image"	: "/img/damnsharks.png",
+		"date"	: "2014-04-28"
 	},
 	"thefacility": {
-		"title": "The Facility",
-		"image": "/img/thefacility.png"
+		"title"	: "The Facility",
+		"image"	: "/img/thefacility.png",
+		"date"	: "2014-01-26"
 	},
 	"corpseexplosion": {
 		"title": "Corpse Explosion",
-		"image": "/img/corpseexplosion.png"
+		"image": "/img/corpseexplosion.png",
+		"date": "2013-12-16"
 	},
 	"thesis": {
 		"title": "Thesis",
-		"image": "/img/lightbot_screen.jpg"
+		"image": "/img/lightbot_screen.jpg",
+		"date": "2013-12-03"
 	},
 	"snape": {
 		"title": "Snape",
-		"image": "/img/snape_screen.PNG"
+		"image": "/img/snape_screen.PNG",
+		"date": "2013-04-29"
 	},
 	"heartofthemountain": {
 		"title": "Heart of the Mountain",
-		"image": "/img/ggj_screen.jpeg"
+		"image": "/img/ggj_screen.jpeg",
+		"date": "2013-01-27"
 	},
 	"temperature": {
 		"title": "Temperature",
-		"image": "/img/egp_screen.PNG"
+		"image": "/img/egp_screen.PNG",
+		"date": "2012-12-30"
 	},
-	"csci4830": {
-		"title": "CSCI 4830",
-		"image": "/img/monster_truck_screen.PNG"
+	"monstertrucks": {
+		"title": "Monster Truck Mayhem",
+		"image": "/img/monster_truck_screen.PNG",
+		"date": "2012-11-01"
+	},
+	"robotmayhem": {
+		"title": "Robot Mayhem",
+		"image": "/img/robot_mayhem_screen.PNG",
+		"date": "2012-10-01"
 	},
 	"gish": {
 		"title": "Gish",
-		"image": "/img/gish_screen.PNG"
+		"image": "/img/gish_screen.PNG",
+		"date": "2012-08-01"
 	},
 	"jetpackjoe": {
 		"title": "Jetpack Joe",
-		"image": "/img/ld23.png"
+		"image": "/img/ld23.png",
+		"date": "2012-06-01"
 	},
 	"asteroids": {
 		"title": "Asteroids",
-		"image": "/img/asteroids_screen.png"
+		"image": "/img/asteroids_screen.png",
+		"date": "2012-04-01"
 	}
 }
