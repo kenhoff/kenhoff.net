@@ -1,0 +1,28 @@
+h3 Part 5: Add some more stars (not in a grid)
+
+
+
+script.
+	var game5 = new Phaser.Game("90", 500, Phaser.AUTO, "game5", {preload: preload5, create: create5, update: update5})
+
+	var random = new Phaser.RandomDataGenerator()
+
+
+	function preload5() {
+		game5.load.image("star", "star1.png")
+	}
+
+	function create5() {
+		game5.world.setBounds(-1500, -1500, 3000, 3000)
+		for (var i = 0; i < 1000; i++) {
+			star = game5.add.sprite(random.realInRange(-150, 150), random.realInRange(-150, 150), "star")
+			console.log(star)
+		}
+	}
+
+	function update5() {
+		game5.camera.setPosition(game5.input.x - (game5.camera.width), game5.input.y - (game5.camera.height))
+	}
+ 
+	
+#game5.game
