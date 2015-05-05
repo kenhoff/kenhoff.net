@@ -1,4 +1,9 @@
 {
+	"violence": {
+		"title"	: "Banana Cat's Violence",
+		"image"	: "/img/violence.PNG",
+		"date"	: "2015-04-12"
+	},
 	"bananacat": {
 		"title"	: "Banana Cat's Maniac Mystery Mansion",
 		"image"	: "/img/bananacat_screen.png",
